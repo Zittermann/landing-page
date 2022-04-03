@@ -1,0 +1,46 @@
+header {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    
+}
+
+.nav-link {
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 12px;
+}
+
+.container {
+    display: flex;
+    padding: 50px;
+}
+
+.container img {
+    display: flex;
+    align-items: center;
+    height: 250px;
+}
+
+.container .left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
