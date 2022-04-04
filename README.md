@@ -2,4 +2,4 @@
 Simple landing page created with HTML and CSS
 
 ## Images credit
-- Header image: TheDigitalArtist [Contact here](pixabay.com/users/thedigitalartist-202249/)
+- Header image: Igor Kasalovic [Contact here](unsplash.com/@ikasalovic)
