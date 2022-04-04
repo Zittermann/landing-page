@@ -181,3 +181,11 @@ button:focus {
 .footer-signup button {
     border: 2px solid white;
 }
+
+footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
