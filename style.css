@@ -60,13 +60,21 @@ body {
     margin: 0%;
 }
 
-.signup-content button {
+button {
     width: 130px;
     height: 30px;
-    color: white;
-    background-color: #3882F6;
     border-radius: 8px;
+    background-color: #3882F6;
+    color: white;
+    font-weight: bold;
+}
+
+.signup-content button {
     border: none;
+}
+
+button:focus {
+    background-color: pink;
 }
 
 .nav-links a {
@@ -139,4 +147,37 @@ body {
     text-decoration: none;
     color: #1F2937;
     font-weight: bold;
+}
+
+.footer-signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 8px;
+    margin: 100px 500px;
+
+    height: 150px;
+
+}
+
+.footer-signup .container{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;    
+
+}
+
+.footer-signup .container p {
+    margin: 2px;
+    color: white;
+}
+
+.call-to-signup {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer-signup button {
+    border: 2px solid white;
 }
