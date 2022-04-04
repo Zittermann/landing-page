@@ -40,11 +40,8 @@ body {
 }
 
 .container img {
-    display: flex;
-    align-items: center;
     height: 250px;
-    width: auto;
-
+    display: flex;
 }
 
 .signup-content {
@@ -52,6 +49,7 @@ body {
     flex-direction: column;
     width: 400px;
     min-width: 400px;
+    
 }
 
 .signup-content h1 {
@@ -69,7 +67,7 @@ body {
     border: none;
 }
 
-a {
+.nav-links a {
     text-decoration: none;
     color: #F9FAF8;
     padding: 12px;
